@@ -1,0 +1,50 @@
+.screen {
+  display:grid;
+  grid-template-columns: 2fr 3fr 1fr;
+}
+.category_btns {
+  display:flex;
+  flex-direction: column;
+}
+.col-l {
+}
+.col-m {
+}
+.col-r {
+}
+.mid-col_q-bar {
+  flex: 1;
+  display: flex;
+}
+.mid-col_q-bar::placeholder {
+   color: red;
+}
+.card{
+  font-size: 32px;
+  height: 50vh;
+  background-color:beige;
+  border: 1px solid black;
+  text-align: center;
+  align-items: center;
+  display:flex;
+  justify-content:center;
+}
+
+.active {
+  font-weight: 800;
+}
+
+.col-r {
+  display: flex;
+  flex-direction: column;
+}
+.user-profil {
+  margin: 5px;
+  padding: 5px;
+  color: white;
+  background-color: crimson;
+  border-radius: 5px;
+}
+.user-profil .active{
+  border: 0;
+}
